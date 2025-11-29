@@ -151,7 +151,7 @@ class _MusicPlayScreenState extends State<MusicPlayScreen> {
                           icon: Icon(Icons.skip_previous),
                         ),
                         IconButton(onPressed: _togglePlayer, icon: Icon(_isPlaying? Icons.pause : Icons.play_arrow)),
-                        IconButton(onPressed: () {}, icon: Icon(Icons.skip_next)),
+                        IconButton(onPressed: _next, icon: Icon(Icons.skip_next)),
                       ],
                     ),
                   ],
